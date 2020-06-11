@@ -3,7 +3,7 @@ package antimonopoly.constructeur;
 import antimonopoly.entities.Case;
 import antimonopoly.entities.Plateau;
 
-public class PlateauCreator {
+public class CreateurDePlateau {
 
 	public Plateau novueauPlateau() {
 		Plateau plateau = new Plateau();

@@ -3,15 +3,15 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import antimonopoly.constructeur.PlateauCreator;
+import antimonopoly.constructeur.CreateurDePlateau;
 import antimonopoly.entities.Plateau;
 
 public class TestPlateau {
-	PlateauCreator constructeurDePlateaux;
+	CreateurDePlateau constructeurDePlateaux;
 
 	@Before
 	public void setUp() {
-		constructeurDePlateaux = new PlateauCreator();
+		constructeurDePlateaux = new CreateurDePlateau();
 
 	}
 

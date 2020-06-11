@@ -6,7 +6,7 @@ import antimonopoly.entities.Plateau;
 public class CreateurDePlateau {
 
 	public Plateau novueauPlateau() {
-		Plateau plateau = new Plateau();
+		Plateau plateau = new Plateau(4);
 		this.configurePlateauNeoLiberal(plateau);
 		return plateau;
 	}

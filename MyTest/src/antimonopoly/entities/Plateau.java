@@ -6,6 +6,9 @@ public class Plateau {
 	List<Case> cases = new ArrayList<Case> ();
 	
 	
+	public Plateau(String string) {
+	}
+
 	public List<Case> getCases() {
 		return cases;
 	}
